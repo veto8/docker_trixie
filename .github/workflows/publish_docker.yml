@@ -38,5 +38,5 @@ jobs:
           file: ./Dockerfile
           push: true
           #tags: ${{ steps.meta.outputs.tags }}
-          tags: myridia/docker_trixie:latest
+          tags: myridia/trixie:latest
           labels: ${{ steps.meta.outputs.labels }}
